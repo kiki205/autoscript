@@ -30,7 +30,7 @@ rpm -Uvh remi-release-6.rpm
 
 if [ "$OS" == "x86_64" ]; then
   wget http://ftp-stud.hs-esslingen.de/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
-  rpm -Uvh rpmforge-release-0.5.3-1.el6.rf.x86_64.rpm
+  rpm -Uvh epel-release-6-8.noarch.rpm
 else
   wget http://pkgs.repoforge.org/rpmforge-release/rpmforge-release-0.5.3-1.el6.rf.i686.rpm
   rpm -Uvh rpmforge-release-0.5.3-1.el6.rf.i686.rpm
