@@ -47,7 +47,7 @@ Tested on
 ### CentOS 7 64 bit (OpenVZ VPS)
 SSH Dropbear Squid Setup
 
-wget https://raw.githubusercontent.com/0DinZ/CentOS-7-AutoScript/master/centos7.sh
+wget https://raw.githubusercontent.com/kiki205/autoscript/master/centos7.sh
 bash centos7.sh
 Tested on
 
