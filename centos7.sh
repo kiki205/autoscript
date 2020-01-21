@@ -130,7 +130,7 @@ systemctl restart fail2ban
 systemctl enable fail2ban
 
 # install Webmin
-wget http://prdownloads.sourceforge.net/webadmin/webmin-1.890-1.noarch.rpm
+wget https://download.webmin.com/download/yum/webmin-1.890-1.noarch.rpm
 yum -y install perl perl-Net-SSLeay openssl perl-IO-Tty perl-Encode-Detect
 rpm -U webmin-1.890-1.noarch.rpm
 systemctl restart webmin
